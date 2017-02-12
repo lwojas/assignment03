@@ -1,0 +1,251 @@
+/* ------------------------------------------------------------------------
+
+        Assignment 03 Stylesheet
+        Developer: Lech Wojas
+
+        The following CSS styles three seperate pages, all pages share
+        the container ID to set the each page with an equal content 
+        width.
+
+        CONTENTS
+
+        1.0 ID's
+
+        2.0 Classes
+
+        3.0 In-line styles
+
+        4.0 Images
+
+        5.0 Links
+
+        6.0 Lists
+
+
+   ------------------------------------------------------------------------ */
+
+
+/* --------------------
+
+            1.0
+
+   -------------------- */
+
+#container {
+	margin: 0 auto;
+    width: 980px;
+    margin-top: 60px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#nav_bar {
+    position: fixed;
+    right: 20px;
+    top: 0px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: dodgerblue;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+/* --------------------
+
+            2.0
+
+   -------------------- */
+
+.columns {
+	float: left;
+}
+
+.colOne {
+	width: 400px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-left: 10px;
+	margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+	float: left;
+}
+
+.colOne:hover {
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+.colTwo { 
+	width: 400px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-left: 10px;
+	margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+	float: left;
+}
+
+.colTwo:hover {
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+.three-col {
+    width: 280px;
+    float: left;
+    padding: 20px;
+}
+
+.textWrap {
+	float: left;
+}
+
+.social_bar {
+    height: 40px;
+    position: fixed;
+    border-radius: 8px;
+    top: 0px;
+    background-color: cornflowerblue;
+    left: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    border: 2px solid #ededed;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/* --------------------
+
+            3.0
+
+   -------------------- */
+
+h1 {
+	margin-left: 10px;
+    padding-left: 5px;
+    text-align: left;
+    border-left-style: solid;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+span {
+    display: inline-block;
+    margin-top: 8px;
+    color: white;
+}
+
+
+
+/* --------------------
+
+            4.0
+
+   -------------------- */
+
+img {
+	margin-right: 5px;
+    float: left;
+    height: 35px;
+    width: auto;
+}
+
+img.right-icon {      /* I'm not sure if there is a difference to declaring the class seperately, or doing it inline here, this looks cleaner. */
+	margin-right: 0px;
+    float: left;
+    height: 35px;
+    width: auto;
+}
+
+img.gallery {
+    height: 200px;
+    width: auto;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid white;
+}
+
+img.gallery:hover {
+    border: 2px solid black;
+}
+
+img.article {
+    width: 280px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* --------------------
+
+            5.0
+
+   -------------------- */
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a.menu:link {
+    color: white;
+}
+
+a.menu:visited {
+    color: white;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* --------------------
+
+            6.0
+
+   -------------------- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li:hover {
+    background-color: lightsteelblue;
+}
+
